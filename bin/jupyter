@@ -2,4 +2,5 @@
 
 docker run \
     --publish 8888:8888 \
+    --volume "$REPO_PATH/alpaca-trade-jupyter-notebooks":/home/jovyan/ \
     jupyter/scipy-notebook
