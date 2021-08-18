@@ -1,0 +1,11 @@
+# ignore build harness
+*build-harness
+
+# ignore direnv cache
+.direnv
+
+# ignore .vars file
+.vars
+
+# ignore source directory
+src

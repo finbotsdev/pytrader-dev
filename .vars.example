@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# add ./build-harness/vendor to path
+export PATH=./bin:./build-harness/bin:./build-harness/vendor:$PATH
+
+# the path specified by REPO_PATH is there we will clone the
+# source repositories specified in .repo-manifest
+export REPO_PATH=./src
+
+# alpaca trading account
+export alpaca_endpoint=https://api.alpaca.markets
+export alpaca_api_key_id=xxxxxxxxxxxxxxxxx
+export alpaca_secret_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
