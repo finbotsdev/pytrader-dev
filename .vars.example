@@ -8,7 +8,7 @@ export PATH=./bin:./build-harness/bin:./build-harness/vendor:$PATH
 REPO_PATH=$(pwd)/src
 export REPO_PATH
 
-# alpaca trading account
-export alpaca_endpoint=https://api.alpaca.markets
+# alpaca trading account api (paper)
+export alpaca_endpoint=https://paper-api.alpaca.markets
 export alpaca_api_key_id=xxxxxxxxxxxxxxxxx
 export alpaca_secret_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

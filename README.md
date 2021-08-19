@@ -1,4 +1,6 @@
-# alpaca trading bot
+# pytrader
+
+build algorithmic traders using python
 
 ## Algorithmic Trading Using Python - Full Course
 

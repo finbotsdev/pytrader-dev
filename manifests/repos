@@ -1,5 +1,5 @@
-git@github.com:finbotsdev/alpaca-trade-bot.git alpaca-trade-bot
-git@github.com:finbotsdev/alpaca-trade-jupyter-notebooks.git alpaca-trade-jupyter-notebooks
+git@github.com:finbotsdev/pytrade-bot.git pytrade-bot
+git@github.com:finbotsdev/pytrade-jupyter-notebooks.git pytrade-jupyter-notebooks
 https://github.com/nickmccullum/algorithmic-trading-python reference/algorithmic-trading-python
 https://github.com/hackingthemarkets/candlestick-screener reference/candlestick-screener
 https://github.com/hackingthemarkets/pyalgotrade-tutorials reference/pyalgotrade-tutorials
