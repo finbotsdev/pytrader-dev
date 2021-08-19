@@ -45,18 +45,28 @@ backtesting
 
 - [x] [PyAlgoTrade Tutorial (Part 1) - Beating the S&P 500](https://www.youtube.com/watch?v=JcHOOEhaDtU)
 - [ ] [PyAlgoTrade Tutorial (Part 2) - Backtesting Basics](https://www.youtube.com/watch?v=cdeftn1AZO8)
-- [ ] [](https://www.youtube.com/watch?v=L5PRtZQNhSE)
+- [ ] [PyAlgoTrade Tutorial (Part 3) - Technicals, Analyzers, and Plotting](https://www.youtube.com/watch?v=L5PRtZQNhSE)
 - [ ] [pyalgotrade-tutorials](https://github.com/hackingthemarkets/pyalgotrade-tutorials)
 - [ ] [docs](http://gbeced.github.io/pyalgotrade/docs/v0.20/html/)
 
 ## TA-Lib : Technical Analysis Library
 
+- [ ] [Candlestick Pattern Recognition with Python and TA-Lib](https://www.youtube.com/watch?v=QGkf2-caXmc)
+- [ ] [candlestick-screener](https://github.com/hackingthemarkets/candlestick-screener)
 - [ ] [ta-lib doc](http://mrjbq7.github.io/ta-lib/doc_index.html)
 - [ ] [ta-lib python wrapper](https://github.com/mrjbq7/ta-lib)
-  
+
 ## Reading
 
 ```txt
+https://towardsdatascience.com/building-an-automated-trading-system-from-the-comfort-of-your-own-home-c9a2fb7405a3
+https://towardsdatascience.com/step-by-step-setup-for-your-automated-home-trading-system-f205f646fd8f
+https://towardsdatascience.com/build-an-algorithmic-trading-system-a5b54de5379
 https://www.newtraderu.com/2019/10/05/moving-average-trading-strategy-that-crushes-buy-and-hold/
-
+https://towardsdatascience.com/best-free-and-paid-stock-market-apis-for-2020-11adb98e7023
+https://towardsdatascience.com/algorithmic-trading-based-on-technical-analysis-in-python-80d445dc6943
+https://medium.com/swlh/400-trading-algorithms-later-bc76279bc525
+https://medium.com/qfx-research/im-approaching-one-year-since-diving-full-time-into-quant-trading-a1bea7bb6d05
+https://medium.com/@jasonbamford/machine-learning-algorithm-to-predict-stock-direction-d54b7666cc7c
+https://medium.com/swlh/build-a-trading-simulator-in-python-ebe046949dd9
 ```
