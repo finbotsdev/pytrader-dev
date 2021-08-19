@@ -49,9 +49,18 @@ backtesting
 - [ ] [Backtesting trading strategies using custom data in zipline](https://towardsdatascience.com/backtesting-trading-strategies-using-custom-data-in-zipline-e6fd65eeaca0)
 - [ ] [The easiest way to evaluate the performance of trading strategies in Python](https://towardsdatascience.com/the-easiest-way-to-evaluate-the-performance-of-trading-strategies-in-python-4959fd798bb3)
 - [ ] [Algorithmic trading based on Technical Analysis in Python](https://towardsdatascience.com/algorithmic-trading-based-on-technical-analysis-in-python-80d445dc6943)
-  
+
+## full-stack-trading-app-tutorial
+
+- [ ] [part-01](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-01-database-design)
+- [ ] [part-02](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-02-intro-to-sql)
+- [ ] [part-03](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-03-python-sql-and-stock-universes)
+- [ ] [part-04](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-04-job-scheduling)
+- [ ] [part-05](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-05-price-data)
+
 ## technical analysis
 
+- [ ] [Tutorial: Build a Technical Screener Webapp in 100 Lines of Code](https://www.youtube.com/watch?v=OhvQN_yIgCo)
 - [ ] [technical-analysis-with-python](https://www.udemy.com/course/technical-analysis-with-python-for-algorithmic-trading)
 - [ ] [the-complete-technical-analysis-course](https://www.udemy.com/course/the-complete-technical-analysis-course/) 10 hour
 - [ ] [the-complete-candlestick-trading-course](https://www.udemy.com/course/the-complete-candlestick-trading-course/) 5 hour
