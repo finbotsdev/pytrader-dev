@@ -1,0 +1,52 @@
+version: "3.9"
+services:
+
+  pytrade-bot:
+    build: ./src/pytrade-bot
+    depends_on:
+      - pytrade-db
+
+  pytrade-db:
+    build: ./src/pytrade-db
+    environment:
+      - APP_DB_USER
+      - APP_DB_PASS
+      - APP_DB_NAME
+      - POSTGRES_USER
+      - POSTGRES_PASSWORD
+      - PGDATA
+    networks:
+      pytrade:
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./src/pytrade-data:${PGDATA}
+      - ./src/pytrade-db/src:/docker-entrypoint-initdb.d/
+
+  pytrade-web:
+    build: ./src/pytrade-web
+    depends_on:
+      - pytrade-db
+
+  pgadmin:
+    depends_on:
+      - pytrade-db
+    environment:
+      - PGADMIN_DEFAULT_EMAIL
+      - PGADMIN_DEFAULT_PASSWORD
+      - PGADMIN_CONFIG_SERVER_MODE
+    image: dpage/pgadmin4
+    networks:
+      pytrade:
+    ports:
+      - "5050:80"
+    volumes:
+      - ./.volumes/pgadmin:/root/.pgadmin
+
+networks:
+  pytrade:
+    name: pytrade
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/24

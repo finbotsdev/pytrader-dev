@@ -12,3 +12,15 @@ export REPO_PATH
 export alpaca_endpoint=https://paper-api.alpaca.markets
 export alpaca_api_key_id=xxxxxxxxxxxxxxxxx
 export alpaca_secret_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+export APP_DB_USER=docker
+export APP_DB_PASS=docker
+export APP_DB_NAME=docker
+
+export POSTGRES_USER=${POSTGRES_USER:-postgres}
+export POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-password}
+export PGDATA=/data/postgres
+
+export PGADMIN_DEFAULT_EMAIL=admin@admin.com
+export PGADMIN_DEFAULT_PASSWORD=$POSTGRES_PASSWORD
+export PGADMIN_CONFIG_SERVER_MODE="False"
