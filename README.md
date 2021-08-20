@@ -60,6 +60,10 @@ backtesting
 - [ ] [part-04](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-04-job-scheduling)
 - [ ] [part-05](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-05-price-data)
 
+## finding breakouts
+
+- [ ] [finding breakouts](https://www.youtube.com/watch?v=exGuyBnhN_8&t=1219s)
+
 ## technical analysis
 
 - [ ] [Tutorial: Build a Technical Screener Webapp in 100 Lines of Code](https://www.youtube.com/watch?v=OhvQN_yIgCo)
