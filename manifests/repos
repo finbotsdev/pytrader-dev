@@ -2,6 +2,7 @@ git@github.com:finbotsdev/pytrade-bot.git pytrade-bot
 git@github.com:finbotsdev/pytrade-db.git pytrade-db
 git@github.com:finbotsdev/pytrade-web.git pytrade-web
 git@github.com:finbotsdev/pytrade-jupyter-notebooks.git pytrade-jupyter-notebooks
+git@github.com:finbotsdev/marketstore.git marketstore
 git@github.com:localstack/localstack.git localstack
 https://github.com/nickmccullum/algorithmic-trading-python reference/algorithmic-trading-python
 https://github.com/hackingthemarkets/candlestick-screener reference/candlestick-screener

@@ -22,6 +22,18 @@ services:
       - "${TMPDIR:-/tmp/localstack}:/tmp/localstack"
       - "/var/run/docker.sock:/var/run/docker.sock"
 
+  marketstore:
+    build:
+      context: ./src/marketstore
+    ports:
+      - "5993:5993"
+      - "5995:5995"
+    networks:
+      pytrade:
+    volumes:
+      - ./mkts.yml:/etc/mkts.yml
+      - ./src/marketstore-data:/data
+
   pytrade-bot:
     build: ./src/pytrade-bot
     depends_on:
