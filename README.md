@@ -2,24 +2,6 @@
 
 build algorithmic traders using python
 
-## Algorithmic Trading Using Python - Full Course
-
-- [x] [algorithmic-trading-python](https://www.youtube.com/watch?v=xfzGZB4HhEE) 4.5 hour
-- [x] [algorithmic-trading-python](https://github.com/nickmccullum/algorithmic-trading-python)
-
-this course provides good examples of working in jupyter notebooks
-doesn't provide much in the way of actual technical analysis 
-also a very very incomplete trading box
-
-## The Incomplete Guide to build a Trading Bot without Bulls**t
-
-- [x] [build-a-trading-bot](https://www.udemy.com/course/build-a-trading-bot) 2.5 hour
-- [x] [incomplete-trading-bot](https://github.com/theincompleteguide/incomplete-trading-bot.git)
-
-uses alpaca api
-advanced multi threaded project
-more advanced that we are wanting
-
 ## Algorythmic trading on alpaca deep dive
 
 - [ ] [algorithmic-trading-on-alpacas-platform-deep-dive/](https://www.udemy.com/course/algorithmic-trading-on-alpacas-platform-deep-dive) 13 hour
