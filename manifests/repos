@@ -1,5 +1,6 @@
 git@github.com:finbotsdev/pytrade-bot.git pytrade-bot
 git@github.com:finbotsdev/pytrade-db.git pytrade-db
+git@github.com:finbotsdev/pytrade-scout.git pytrade-scout
 git@github.com:finbotsdev/pytrade-web.git pytrade-web
 git@github.com:finbotsdev/pytrade-jupyter-notebooks.git pytrade-jupyter-notebooks
 git@github.com:finbotsdev/marketstore.git marketstore
