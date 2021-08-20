@@ -5,6 +5,8 @@ services:
     build: ./src/pytrade-bot
     depends_on:
       - pytrade-db
+    networks:
+      pytrade:
 
   pytrade-db:
     build: ./src/pytrade-db
@@ -27,6 +29,8 @@ services:
     build: ./src/pytrade-web
     depends_on:
       - pytrade-db
+    networks:
+      pytrade:
 
   pgadmin:
     depends_on:
@@ -41,7 +45,7 @@ services:
     ports:
       - "5050:80"
     volumes:
-      - ./.volumes/pgadmin:/root/.pgadmin
+      - ./src/pytrade-pgadmin:/root/.pgadmin
 
 networks:
   pytrade:
