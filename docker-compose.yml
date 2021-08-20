@@ -31,6 +31,8 @@ services:
       - pytrade-db
     networks:
       pytrade:
+    ports:
+      - "8080:5000"
 
   pgadmin:
     depends_on:
