@@ -6,9 +6,6 @@ build algorithmic traders using python
 
 - [ ] [algorithmic-trading-on-alpacas-platform-deep-dive/](https://www.udemy.com/course/algorithmic-trading-on-alpacas-platform-deep-dive) 13 hour
 
-deeper coverage of alpaca api
-backtesting
-
 ## Learn Algorythmic Trading in a day
 - [ ] [learn-algorithmic-trading-in-one-day](https://www.udemy.com/course/learn-algorithmic-trading-in-one-day) 12.5 hour
 
@@ -66,6 +63,18 @@ backtesting
 
 - [ ] [realtimelarry](https://www.youtube.com/watch?v=TKAo_Z-hzQs&t=123s)
 - [ ] [tradingview-webhooks](https://github.com/hackingthemarkets/tradingview-webhooks)
+
+## WeBull Trading API
+
+- [ ] [Algotrading 1 - Webull API Login tutorial](https://www.youtube.com/watch?v=fqBOePxsCDQ)
+- [ ] [Algotrading 2 - Webull API Place Order tutorial](https://www.youtube.com/watch?v=3w3ZNQniSbU)
+
+## API / Paper Trading Crypto
+
+i want to paper trade crypto just like paper trading with alpaca
+there doesn't appear to be great options for paper trading crypto
+i could build my own paper trading system
+track live prices, write orders to a local database
 
 ## Reading
 
