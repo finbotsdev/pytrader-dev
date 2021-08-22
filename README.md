@@ -20,7 +20,6 @@ build algorithmic traders using python
 ## TA-Lib : Technical Analysis Library
 
 - [ ] [Candlestick Pattern Recognition with Python and TA-Lib](https://www.youtube.com/watch?v=QGkf2-caXmc)
-- [ ] [candlestick-screener](https://github.com/hackingthemarkets/candlestick-screener)
 - [ ] [ta-lib doc](http://mrjbq7.github.io/ta-lib/doc_index.html)
 - [ ] [ta-lib python wrapper](https://github.com/mrjbq7/ta-lib)
 
@@ -41,7 +40,9 @@ build algorithmic traders using python
 
 ## finding breakouts
 
-- [ ] [finding breakouts](https://www.youtube.com/watch?v=exGuyBnhN_8&t=1219s)
+- [ ] [Finding Breakout Candidates with Python and Pandas](https://www.youtube.com/watch?v=exGuyBnhN_8&t=1219s)
+- [ ] [Build a TTM Squeeze Scanner in Python](https://www.youtube.com/watch?v=YhkNoOqYp9A&t=20s)
+- [ ] [candlestick-screener](https://github.com/hackingthemarkets/candlestick-screener)
 
 ## technical analysis
 
