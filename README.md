@@ -11,21 +11,21 @@ build algorithmic traders using python
 
 ## finding breakouts
 
-- [ ] [Finding Breakout Candidates with Python and Pandas](https://www.youtube.com/watch?v=exGuyBnhN_8&t=1219s) ih
-- [ ] [Build a TTM Squeeze Scanner in Python](https://www.youtube.com/watch?v=YhkNoOqYp9A&t=20s) 1h
+- [ ] [Finding Breakout Candidates with Python and Pandas](https://youtu.be/exGuyBnhN_8&t=1219s) ih
+- [ ] [Build a TTM Squeeze Scanner in Python](https://youtu.be/YhkNoOqYp9A&t=20s) 1h
 - [ ] [candlestick-screener](https://github.com/hackingthemarkets/candlestick-screener)
 
 ## PyAlgoTrade Python Lib
 
-- [x] [PyAlgoTrade Tutorial (Part 1) - Beating the S&P 500](https://www.youtube.com/watch?v=JcHOOEhaDtU)
-- [ ] [PyAlgoTrade Tutorial (Part 2) - Backtesting Basics](https://www.youtube.com/watch?v=cdeftn1AZO8) 1h
-- [ ] [PyAlgoTrade Tutorial (Part 3) - Technicals, Analyzers, and Plotting](https://www.youtube.com/watch?v=L5PRtZQNhSE) 1h
+- [x] [PyAlgoTrade Tutorial (Part 1) - Beating the S&P 500](https://youtu.be/JcHOOEhaDtU)
+- [ ] [PyAlgoTrade Tutorial (Part 2) - Backtesting Basics](https://youtu.be/cdeftn1AZO8) 1h
+- [ ] [PyAlgoTrade Tutorial (Part 3) - Technicals, Analyzers, and Plotting](https://youtu.be/L5PRtZQNhSE) 1h
 - [ ] [pyalgotrade-tutorials](https://github.com/hackingthemarkets/pyalgotrade-tutorials)
 - [ ] [docs](http://gbeced.github.io/pyalgotrade/docs/v0.20/html/)
 
 ## TA-Lib : Technical Analysis Library
 
-- [ ] [Candlestick Pattern Recognition with Python and TA-Lib](https://www.youtube.com/watch?v=QGkf2-caXmc)
+- [ ] [Candlestick Pattern Recognition with Python and TA-Lib](https://youtu.be/QGkf2-caXmc)
 - [ ] [ta-lib doc](http://mrjbq7.github.io/ta-lib/doc_index.html)
 - [ ] [ta-lib python wrapper](https://github.com/mrjbq7/ta-lib)
 
@@ -46,29 +46,36 @@ build algorithmic traders using python
 
 ## technical analysis
 
-- [ ] [Tutorial: Build a Technical Screener Webapp in 100 Lines of Code](https://www.youtube.com/watch?v=OhvQN_yIgCo)
+- [ ] [Tutorial: Build a Technical Screener Webapp in 100 Lines of Code](https://youtu.be/OhvQN_yIgCo)
 - [ ] [technical-analysis-with-python](https://www.udemy.com/course/technical-analysis-with-python-for-algorithmic-trading)
 - [ ] [the-complete-technical-analysis-course](https://www.udemy.com/course/the-complete-technical-analysis-course/) 10 hour
 - [ ] [the-complete-candlestick-trading-course](https://www.udemy.com/course/the-complete-candlestick-trading-course/) 5 hour
 
+## Build A Stock Prediction Web App In Python
+
+- [ ] [Build A Stock Prediction Web App In Python](https://youtu.be/0E_31WqVzCY)
+- [ ] [Building Financial Dashboards with Python](https://youtu.be/0ESc1bh3eIg&t=148s)
+- [ ] [streamlit-dashboards](https://github.com/hackingthemarkets/streamlit-dashboards)
+- [ ] [streamlit docs](https://docs.streamlit.io/en/stable/)
+  
 ## Cryptocurrency Trading Bot with a User Interface in Python
 
 - [ ] [Cryptocurrency Trading Bot](https://www.udemy.com/course/cryptocurrency-trading-bot-with-user-interface-in-python/)
 
 ## Build a Real-Time Crypto Trading Bot in under 100 Lines of Code
 
-- [ ] [realtimelarry](https://www.youtube.com/watch?v=GdlFhF6gjKo)
+- [ ] [realtimelarry](https://youtu.be/GdlFhF6gjKo)
 - [ ] [binance-tutorials](https://github.com/hackingthemarkets/binance-tutorials)
 
 ## Run a Stock Trading Bot in the Cloud using TradingView webhooks, Alpaca, Python, and AWS Lambda
 
-- [ ] [realtimelarry](https://www.youtube.com/watch?v=TKAo_Z-hzQs&t=123s)
+- [ ] [realtimelarry](https://youtu.be/TKAo_Z-hzQs&t=123s)
 - [ ] [tradingview-webhooks](https://github.com/hackingthemarkets/tradingview-webhooks)
 
 ## WeBull Trading API
 
-- [ ] [Algotrading 1 - Webull API Login tutorial](https://www.youtube.com/watch?v=fqBOePxsCDQ)
-- [ ] [Algotrading 2 - Webull API Place Order tutorial](https://www.youtube.com/watch?v=3w3ZNQniSbU)
+- [ ] [Algotrading 1 - Webull API Login tutorial](https://youtu.be/fqBOePxsCDQ)
+- [ ] [Algotrading 2 - Webull API Place Order tutorial](https://youtu.be/3w3ZNQniSbU)
 
 ## API / Paper Trading Crypto
 
