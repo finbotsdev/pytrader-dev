@@ -9,11 +9,17 @@ build algorithmic traders using python
 ## Learn Algorythmic Trading in a day
 - [ ] [learn-algorithmic-trading-in-one-day](https://www.udemy.com/course/learn-algorithmic-trading-in-one-day) 12.5 hour
 
+## finding breakouts
+
+- [ ] [Finding Breakout Candidates with Python and Pandas](https://www.youtube.com/watch?v=exGuyBnhN_8&t=1219s) ih
+- [ ] [Build a TTM Squeeze Scanner in Python](https://www.youtube.com/watch?v=YhkNoOqYp9A&t=20s) 1h
+- [ ] [candlestick-screener](https://github.com/hackingthemarkets/candlestick-screener)
+
 ## PyAlgoTrade Python Lib
 
 - [x] [PyAlgoTrade Tutorial (Part 1) - Beating the S&P 500](https://www.youtube.com/watch?v=JcHOOEhaDtU)
-- [ ] [PyAlgoTrade Tutorial (Part 2) - Backtesting Basics](https://www.youtube.com/watch?v=cdeftn1AZO8)
-- [ ] [PyAlgoTrade Tutorial (Part 3) - Technicals, Analyzers, and Plotting](https://www.youtube.com/watch?v=L5PRtZQNhSE)
+- [ ] [PyAlgoTrade Tutorial (Part 2) - Backtesting Basics](https://www.youtube.com/watch?v=cdeftn1AZO8) 1h
+- [ ] [PyAlgoTrade Tutorial (Part 3) - Technicals, Analyzers, and Plotting](https://www.youtube.com/watch?v=L5PRtZQNhSE) 1h
 - [ ] [pyalgotrade-tutorials](https://github.com/hackingthemarkets/pyalgotrade-tutorials)
 - [ ] [docs](http://gbeced.github.io/pyalgotrade/docs/v0.20/html/)
 
@@ -37,12 +43,6 @@ build algorithmic traders using python
 - [ ] [part-03](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-03-python-sql-and-stock-universes)
 - [ ] [part-04](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-04-job-scheduling)
 - [ ] [part-05](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-05-price-data)
-
-## finding breakouts
-
-- [ ] [Finding Breakout Candidates with Python and Pandas](https://www.youtube.com/watch?v=exGuyBnhN_8&t=1219s)
-- [ ] [Build a TTM Squeeze Scanner in Python](https://www.youtube.com/watch?v=YhkNoOqYp9A&t=20s)
-- [ ] [candlestick-screener](https://github.com/hackingthemarkets/candlestick-screener)
 
 ## technical analysis
 
