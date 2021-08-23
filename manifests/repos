@@ -1,3 +1,4 @@
+git@github.com:finbotsdev/pytrade.git pytrade
 git@github.com:finbotsdev/pytrade-alp.git pytrade-alp
 git@github.com:finbotsdev/pytrade-bot.git pytrade-bot
 git@github.com:finbotsdev/pytrade-db.git pytrade-db
@@ -8,7 +9,7 @@ git@github.com:finbotsdev/pytrade-jupyter-notebooks.git pytrade-jupyter-notebook
 git@github.com:finbotsdev/marketstore.git marketstore
 git@github.com:localstack/localstack.git localstack
 https://github.com/nickmccullum/algorithmic-trading-python reference/algorithmic-trading-python
-https://github.com/hackingthemarkets/binance-tutorials referencs/binance-tutorials
+https://github.com/hackingthemarkets/binance-tutorials reference/binance-tutorials
 https://github.com/hackingthemarkets/candlestick-screener reference/candlestick-screener
 https://github.com/hackingthemarkets/pyalgotrade-tutorials reference/pyalgotrade-tutorials
 https://github.com/hackingthemarkets/tradekit reference/tradekit
