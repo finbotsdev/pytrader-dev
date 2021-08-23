@@ -109,5 +109,5 @@ https://medium.com/@jasonbamford/machine-learning-algorithm-to-predict-stock-dir
 ## more
 
 ```
-https://www.targettradingacademy.com/target-trading-story
+https://www.targettradingacademy.com/
 ```
