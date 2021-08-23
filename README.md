@@ -97,3 +97,9 @@ https://medium.com/swlh/build-a-trading-simulator-in-python-ebe046949dd9
 
 https://medium.com/@jasonbamford/machine-learning-algorithm-to-predict-stock-direction-d54b7666cc7c
 ```
+
+## more
+
+```
+https://www.targettradingacademy.com/target-trading-story
+```
