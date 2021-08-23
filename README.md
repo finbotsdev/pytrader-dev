@@ -7,6 +7,7 @@ build algorithmic traders using python
 - [ ] [algorithmic-trading-on-alpacas-platform-deep-dive/](https://www.udemy.com/course/algorithmic-trading-on-alpacas-platform-deep-dive) 13 hour
 
 ## Learn Algorythmic Trading in a day
+
 - [ ] [learn-algorithmic-trading-in-one-day](https://www.udemy.com/course/learn-algorithmic-trading-in-one-day) 12.5 hour
 
 ## finding breakouts
@@ -22,6 +23,13 @@ build algorithmic traders using python
 - [ ] [PyAlgoTrade Tutorial (Part 3) - Technicals, Analyzers, and Plotting](https://youtu.be/L5PRtZQNhSE) 1h
 - [ ] [pyalgotrade-tutorials](https://github.com/hackingthemarkets/pyalgotrade-tutorials)
 - [ ] [docs](http://gbeced.github.io/pyalgotrade/docs/v0.20/html/)
+- [ ] [source](https://github.com/gbeced/pyalgotrade)
+
+## Pandas-ta : Technical Analysis Library
+
+- [ ] [pandas-ta tutorial](https://youtu.be/lij39o0_L2I)
+- [ ] [pandas-ta-lib doc](https://twopirllc.github.io/pandas-ta/)
+- [ ] [pandas-ta-lib](https://github.com/twopirllc/pandas-ta)
 
 ## TA-Lib : Technical Analysis Library
 
@@ -57,7 +65,7 @@ build algorithmic traders using python
 - [ ] [Building Financial Dashboards with Python](https://youtu.be/0ESc1bh3eIg&t=148s)
 - [ ] [streamlit-dashboards](https://github.com/hackingthemarkets/streamlit-dashboards)
 - [ ] [streamlit docs](https://docs.streamlit.io/en/stable/)
-  
+
 ## Cryptocurrency Trading Bot with a User Interface in Python
 
 - [ ] [Cryptocurrency Trading Bot](https://www.udemy.com/course/cryptocurrency-trading-bot-with-user-interface-in-python/)
