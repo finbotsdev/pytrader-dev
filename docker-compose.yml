@@ -29,20 +29,20 @@ services:
       - "5993:5993"
       - "5995:5995"
     networks:
-      pytrade:
+      pytrader:
     volumes:
       - ./mkts.yml:/etc/mkts.yml
       - ./src/marketstore-data:/data
 
-  pytrade-bot:
-    build: ./src/pytrade-bot
+  pytrader-bot:
+    build: ./src/pytrader-bot
     depends_on:
-      - pytrade-db
+      - pytrader-db
     networks:
-      pytrade:
+      pytrader:
 
-  pytrade-db:
-    build: ./src/pytrade-db
+  pytrader-db:
+    build: ./src/pytrader-db
     environment:
       - APP_DB_USER
       - APP_DB_PASS
@@ -51,40 +51,40 @@ services:
       - POSTGRES_PASSWORD
       - PGDATA
     networks:
-      pytrade:
+      pytrader:
     ports:
       - "5432:5432"
     volumes:
-      - ./src/pytrade-data:${PGDATA}
-      - ./src/pytrade-db/src:/docker-entrypoint-initdb.d/
+      - ./src/pytrader-data:${PGDATA}
+      - ./src/pytrader-db/src:/docker-entrypoint-initdb.d/
 
-  pytrade-web:
-    build: ./src/pytrade-web
+  pytrader-web:
+    build: ./src/pytrader-web
     depends_on:
-      - pytrade-db
+      - pytrader-db
     networks:
-      pytrade:
+      pytrader:
     ports:
       - "5000:5000"
 
   pgadmin:
     depends_on:
-      - pytrade-db
+      - pytrader-db
     environment:
       - PGADMIN_DEFAULT_EMAIL
       - PGADMIN_DEFAULT_PASSWORD
       - PGADMIN_CONFIG_SERVER_MODE
     image: dpage/pgadmin4
     networks:
-      pytrade:
+      pytrader:
     ports:
       - "5050:80"
     volumes:
-      - ./src/pytrade-pgadmin:/root/.pgadmin
+      - ./src/pytrader-pgadmin:/root/.pgadmin
 
 networks:
-  pytrade:
-    name: pytrade
+  pytrader:
+    name: pytrader
     driver: bridge
     ipam:
       config:

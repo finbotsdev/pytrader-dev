@@ -1,9 +1,11 @@
-git@github.com:finbotsdev/pytrade.git pytrade
-git@github.com:finbotsdev/pytrade-alp.git pytrade-alp
-git@github.com:finbotsdev/pytrade-db.git pytrade-db
-git@github.com:finbotsdev/pytrade-itb.git pytrade-itb
-git@github.com:finbotsdev/pytrade-web.git pytrade-web
-git@github.com:finbotsdev/pytrade-jupyter-notebooks.git pytrade-jupyter-notebooks
+git@github.com:finbotsdev/pytrader.git pytrader
+git@github.com:finbotsdev/pytrader-alp.git pytrade-alp
+https://github.com/finbotsdev/pytrader-apdd pytrader-atdd
+https://github.com/finbotsdev/pytrader-atiod pytrader-atiod
+git@github.com:finbotsdev/pytrader-db.git pytrader-db
+git@github.com:finbotsdev/pytrader-itb.git pytrader-itb
+git@github.com:finbotsdev/pytrader-web.git pytrader-web
+git@github.com:finbotsdev/pytrader-jupyter-notebooks.git pytrader-jupyter-notebooks
 git@github.com:finbotsdev/marketstore.git marketstore
 git@github.com:localstack/localstack.git localstack
 https://github.com/hackingthemarkets/binance-tutorials reference/binance-tutorials
