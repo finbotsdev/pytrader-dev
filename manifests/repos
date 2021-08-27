@@ -1,7 +1,7 @@
 git@github.com:finbotsdev/pytrader.git pytrader
-git@github.com:finbotsdev/pytrader-alp.git pytrade-alp
-https://github.com/finbotsdev/pytrader-apdd pytrader-atdd
-https://github.com/finbotsdev/pytrader-atiod pytrader-atiod
+git@github.com:finbotsdev/pytrader-alp.git pytrader-alp
+git@github.com:finbotsdev/pytrader-apdd pytrader-apdd
+git@github.com:finbotsdev/pytrader-atiod pytrader-atiod
 git@github.com:finbotsdev/pytrader-db.git pytrader-db
 git@github.com:finbotsdev/pytrader-itb.git pytrader-itb
 git@github.com:finbotsdev/pytrader-web.git pytrader-web
