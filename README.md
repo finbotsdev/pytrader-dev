@@ -10,6 +10,11 @@ build algorithmic traders using python
 
 - [ ] [learn-algorithmic-trading-in-one-day](https://www.udemy.com/course/learn-algorithmic-trading-in-one-day) 12.5 hour
 
+##
+
+- [ ] [technical-analysis-masterclass](https://www.udemy.com/course/technical-analysis-masterclass/learn/)
+- [ ] [cryptocurrency-trading-bootcamp](https://www.udemy.com/course/cryptocurrency-trading-bootcamp/learn/)
+
 ## finding breakouts
 
 - [ ] [Finding Breakout Candidates with Python and Pandas](https://youtu.be/exGuyBnhN_8&t=1219s) ih
