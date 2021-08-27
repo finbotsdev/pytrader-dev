@@ -2,5 +2,5 @@
 
 docker run \
     --publish 8888:8888 \
-    --volume "$REPO_PATH/pytrade-jupyter-notebooks/notebooks":/home/jovyan/ \
+    --volume "$REPO_PATH/pytrader-jupyter-notebooks/notebooks":/home/jovyan/ \
     alpaca-trade-jupyter-notebooks:latest
