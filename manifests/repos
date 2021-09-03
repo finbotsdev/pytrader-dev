@@ -1,6 +1,7 @@
 git@github.com:finbotsdev/pytrader.git pytrader
 git@github.com:finbotsdev/pytrader-db.git pytrader-db
 git@github.com:finbotsdev/pytrader-itb.git pytrader-itb
+git@github.com:finbotsdev/pytrader-redis.git pytrader-db
 git@github.com:finbotsdev/marketstore.git marketstore
 git@github.com:localstack/localstack.git localstack
 https://github.com/hackingthemarkets/binance-tutorials reference/binance-tutorials

@@ -1,73 +1,17 @@
 # pytrader
 
-build algorithmic traders using python
+- [] [TradingView Interactive Brokers Integration with Python](https://youtu.be/zsYKfzCNPPU)
 
-## Algorythmic trading on alpaca deep dive
+## udemy courses
 
-- [ ] [algorithmic-trading-on-alpacas-platform-deep-dive/](https://www.udemy.com/course/algorithmic-trading-on-alpacas-platform-deep-dive) 13 hour
-
-## Learn Algorythmic Trading in a day
-
-- [ ] [learn-algorithmic-trading-in-one-day](https://www.udemy.com/course/learn-algorithmic-trading-in-one-day) 12.5 hour
-
-##
-
-- [ ] [technical-analysis-masterclass](https://www.udemy.com/course/technical-analysis-masterclass/learn/)
-- [ ] [cryptocurrency-trading-bootcamp](https://www.udemy.com/course/cryptocurrency-trading-bootcamp/learn/)
-
-## finding breakouts
-
-- [ ] [Finding Breakout Candidates with Python and Pandas](https://youtu.be/exGuyBnhN_8&t=1219s) ih
-- [ ] [Build a TTM Squeeze Scanner in Python](https://youtu.be/YhkNoOqYp9A&t=20s) 1h
-- [ ] [candlestick-screener](https://github.com/hackingthemarkets/candlestick-screener)
-
-## PyAlgoTrade Python Lib
-
-- [x] [PyAlgoTrade Tutorial (Part 1) - Beating the S&P 500](https://youtu.be/JcHOOEhaDtU)
-- [ ] [PyAlgoTrade Tutorial (Part 2) - Backtesting Basics](https://youtu.be/cdeftn1AZO8) 1h
-- [ ] [PyAlgoTrade Tutorial (Part 3) - Technicals, Analyzers, and Plotting](https://youtu.be/L5PRtZQNhSE) 1h
-- [ ] [pyalgotrade-tutorials](https://github.com/hackingthemarkets/pyalgotrade-tutorials)
-- [ ] [docs](http://gbeced.github.io/pyalgotrade/docs/v0.20/html/)
-- [ ] [source](https://github.com/gbeced/pyalgotrade)
-
-## Pandas-ta : Technical Analysis Library
-
-- [ ] [pandas-ta tutorial](https://youtu.be/lij39o0_L2I)
-- [ ] [pandas-ta-lib doc](https://twopirllc.github.io/pandas-ta/)
-- [ ] [pandas-ta-lib](https://github.com/twopirllc/pandas-ta)
-
-## TA-Lib : Technical Analysis Library
-
-- [ ] [Candlestick Pattern Recognition with Python and TA-Lib](https://youtu.be/QGkf2-caXmc)
-- [ ] [ta-lib doc](http://mrjbq7.github.io/ta-lib/doc_index.html)
-- [ ] [ta-lib python wrapper](https://github.com/mrjbq7/ta-lib)
-
-## Zipline Backtesting Framework
-
-- [ ] [Introduction to backtesting trading strategies](https://towardsdatascience.com/introduction-to-backtesting-trading-strategies-7afae611a35e)
-- [ ] [Backtesting trading strategies using custom data in zipline](https://towardsdatascience.com/backtesting-trading-strategies-using-custom-data-in-zipline-e6fd65eeaca0)
-- [ ] [The easiest way to evaluate the performance of trading strategies in Python](https://towardsdatascience.com/the-easiest-way-to-evaluate-the-performance-of-trading-strategies-in-python-4959fd798bb3)
-- [ ] [Algorithmic trading based on Technical Analysis in Python](https://towardsdatascience.com/algorithmic-trading-based-on-technical-analysis-in-python-80d445dc6943)
-
-## full-stack-trading-app-tutorial
-
-- [ ] [part-01](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-01-database-design)
-- [ ] [part-02](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-02-intro-to-sql)
-- [ ] [part-03](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-03-python-sql-and-stock-universes)
-- [ ] [part-04](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-04-job-scheduling)
-- [ ] [part-05](https://hackingthemarkets.com/full-stack-trading-app-tutorial-part-05-price-data)
-
-## technical analysis
-
-- [ ] [Tutorial: Build a Technical Screener Webapp in 100 Lines of Code](https://youtu.be/OhvQN_yIgCo)
-- [ ] [technical-analysis-with-python](https://www.udemy.com/course/technical-analysis-with-python-for-algorithmic-trading)
-- [ ] [the-complete-technical-analysis-course](https://www.udemy.com/course/the-complete-technical-analysis-course/) 10 hour
-- [ ] [the-complete-candlestick-trading-course](https://www.udemy.com/course/the-complete-candlestick-trading-course/) 5 hour
+- [ ] [Swing Trading Masterclass For Traders & Investors 2021](https://www.udemy.com/course/swing-trading-masterclass) 7h
+- [ ] [cryptocurrency-trading-bootcamp](https://www.udemy.com/course/cryptocurrency-trading-bootcamp/learn/) 10h
+- [ ] [Cryptocurrency & Bitcoin Trading Masterclass 2021](https://www.udemy.com/course/advanced-cryptocurrency-trading-masterclass/) 8h
 
 ## Build A Stock Prediction Web App In Python
 
 - [ ] [Build A Stock Prediction Web App In Python](https://youtu.be/0E_31WqVzCY)
-- [ ] [Building Financial Dashboards with Python](https://youtu.be/0ESc1bh3eIg&t=148s)
+- [ ] [Building Financial Dashboards with Python](https://youtu.be/0ESc1bh3eIg)
 - [ ] [streamlit-dashboards](https://github.com/hackingthemarkets/streamlit-dashboards)
 - [ ] [streamlit docs](https://docs.streamlit.io/en/stable/)
 
@@ -84,11 +28,6 @@ build algorithmic traders using python
 
 - [ ] [realtimelarry](https://youtu.be/TKAo_Z-hzQs&t=123s)
 - [ ] [tradingview-webhooks](https://github.com/hackingthemarkets/tradingview-webhooks)
-
-## WeBull Trading API
-
-- [ ] [Algotrading 1 - Webull API Login tutorial](https://youtu.be/fqBOePxsCDQ)
-- [ ] [Algotrading 2 - Webull API Place Order tutorial](https://youtu.be/3w3ZNQniSbU)
 
 ## API / Paper Trading Crypto
 
@@ -114,5 +53,8 @@ https://medium.com/@jasonbamford/machine-learning-algorithm-to-predict-stock-dir
 ## more
 
 ```
+Day Trading with short term price patterns and opening range breakout
+by Toby Crabel
+
 https://www.targettradingacademy.com/
 ```

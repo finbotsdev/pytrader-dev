@@ -1,72 +1,6 @@
 version: "3.9"
 services:
 
-  localstack:
-    container_name: "${LOCALSTACK_DOCKER_NAME-localstack_main}"
-    image: localstack/localstack
-    network_mode: bridge
-    ports:
-      - "4566:4566"
-      - "4571:4571"
-      - "${LOCALSTACK_PORT_WEB_UI-8080}:${LOCALSTACK_PORT_WEB_UI-8080}"
-    environment:
-      - SERVICES=${LOCALSTACK_SERVICES- }
-      - DEBUG=${LOCALSTACK_DEBUG- }
-      - DATA_DIR=${LOCALSTACK_DATA_DIR- }
-      - PORT_WEB_UI=${LOCALSTACK_PORT_WEB_UI- }
-      - LAMBDA_EXECUTOR=${LOCALSTACK_LAMBDA_EXECUTOR- }
-      - KINESIS_ERROR_PROBABILITY=${LOCALSTACK_KINESIS_ERROR_PROBABILITY- }
-      - DOCKER_HOST=unix:///var/run/docker.sock
-      - HOST_TMP_FOLDER=${TMPDIR}
-    volumes:
-      - "${TMPDIR:-/tmp/localstack}:/tmp/localstack"
-      - "/var/run/docker.sock:/var/run/docker.sock"
-
-  marketstore:
-    build:
-      context: ./src/marketstore
-    ports:
-      - "5993:5993"
-      - "5995:5995"
-    networks:
-      pytrader:
-    volumes:
-      - ./mkts.yml:/etc/mkts.yml
-      - ./src/marketstore-data:/data
-
-  pytrader-bot:
-    build: ./src/pytrader-bot
-    depends_on:
-      - pytrader-db
-    networks:
-      pytrader:
-
-  pytrader-db:
-    build: ./src/pytrader-db
-    environment:
-      - APP_DB_USER
-      - APP_DB_PASS
-      - APP_DB_NAME
-      - POSTGRES_USER
-      - POSTGRES_PASSWORD
-      - PGDATA
-    networks:
-      pytrader:
-    ports:
-      - "5432:5432"
-    volumes:
-      - ./src/pytrader-data:${PGDATA}
-      - ./src/pytrader-db/src:/docker-entrypoint-initdb.d/
-
-  pytrader-web:
-    build: ./src/pytrader-web
-    depends_on:
-      - pytrader-db
-    networks:
-      pytrader:
-    ports:
-      - "5000:5000"
-
   pgadmin:
     depends_on:
       - pytrader-db
@@ -81,6 +15,32 @@ services:
       - "5050:80"
     volumes:
       - ./src/pytrader-pgadmin:/root/.pgadmin
+
+  pytrader-db:
+    build: ./src/pytrader-db
+    environment:
+      - POSTGRES_USER
+      - POSTGRES_PASSWORD
+      - PGDATA
+    networks:
+      pytrader:
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./src/pytrader-db/.data:${PGDATA}
+      - ./src/pytrader-db/src/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  pytrader-redis:
+    build: ./src/pytrader-redis
+    command: redis-server --requirepass $REDIS_PASSWORD
+    environment:
+      - REDIS_PASSWORD
+    networks:
+      pytrader:
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./src/pytrader-redis/.data:/redis-master-data
 
 networks:
   pytrader:
