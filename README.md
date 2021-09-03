@@ -1,7 +1,5 @@
 # pytrader
 
-- [] [TradingView Interactive Brokers Integration with Python](https://youtu.be/zsYKfzCNPPU)
-
 ## udemy courses
 
 - [ ] [Swing Trading Masterclass For Traders & Investors 2021](https://www.udemy.com/course/swing-trading-masterclass) 7h
@@ -14,15 +12,6 @@
 - [ ] [Building Financial Dashboards with Python](https://youtu.be/0ESc1bh3eIg)
 - [ ] [streamlit-dashboards](https://github.com/hackingthemarkets/streamlit-dashboards)
 - [ ] [streamlit docs](https://docs.streamlit.io/en/stable/)
-
-## Cryptocurrency Trading Bot with a User Interface in Python
-
-- [ ] [Cryptocurrency Trading Bot](https://www.udemy.com/course/cryptocurrency-trading-bot-with-user-interface-in-python/)
-
-## Build a Real-Time Crypto Trading Bot in under 100 Lines of Code
-
-- [ ] [realtimelarry](https://youtu.be/GdlFhF6gjKo)
-- [ ] [binance-tutorials](https://github.com/hackingthemarkets/binance-tutorials)
 
 ## Run a Stock Trading Bot in the Cloud using TradingView webhooks, Alpaca, Python, and AWS Lambda
 
